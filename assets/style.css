@@ -1,0 +1,30 @@
+.bg { 
+    background-image: url("images/hero.png");
+    height: 100%;
+    width:100% ;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navHolder, .parentContent {
+	float:left;
+}
+.navHolder {
+	height:100%;
+	width: 10%;
+}
+.parentContent {
+	height:100%;
+	width: 85%;
+}
+.sidebarOption {
+	height:30%;
+	margin-top:30%;
+}
+.content {
+
+}
+.textBowl {
+}
+

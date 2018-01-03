@@ -16,12 +16,14 @@
  <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
-	<div class='bg bg1'>
+
+<div id='page1'>
+	<a id='home' class='smooth'></a>
 		<div class='navHolder'>
 			<ul class="nav nav-tabs nav-stacked">
-			  <li role="presentation" class='sidebarOption'><a href="#">Home</a></li>
-			  <li role="presentation" class='sidebarOption'><a href="#">Profile</a></li>
-			  <li role="presentation" class='sidebarOption'><a href="#">Messages</a></li>
+			  <li role="presentation" class='sidebarOption'><a href="#home">Home</a></li>
+			  <li role="presentation" class='sidebarOption'><a href="#middle">middle</a></li>
+			  <li role="presentation" class='sidebarOption'><a href="#business">Business</a></li>
 			</ul>
 		</div>	
 		<div class='parentContent'>
@@ -35,8 +37,15 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</div>
 			</div>
-		</div>	
-	</div>
+	</div>	
+</div>
+<div id='page2'>
+	<a id='middle' class='smooth'></a>
+</div>
+<div id='page3'>
+	<a id='business' class='smooth'></a>
+</div>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
 <script type="text/javascript" src="code.js"></script>	
 </body>	
 </html>
